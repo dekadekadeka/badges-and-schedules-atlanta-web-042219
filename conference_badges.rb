@@ -5,7 +5,7 @@ end
 
 def batch_badge_creator(names)
   for name in names
-    puts "Hello, my name is #{name}."
+    return "Hello, my name is #{name}."
   end
 end
 
