@@ -7,6 +7,7 @@ def batch_badge_creator(names)
   names.each do |name|
     return "Hello, my name is #{name}."
   end
+  names.collect
 end
 
 def assign_rooms(names)
